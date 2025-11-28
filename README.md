@@ -118,10 +118,7 @@ Since UDP is connectionless, the server must be running and bound to the expecte
 - RFC 793 (TCP) and RFC 768 (UDP)
 - Node.js docs: `net` module for TCP and `dgram` module for UDP
 
----
-If you'd like, I can:
-- Add example instructions that show exact ports used by your code (I can open `TCP/server/server.js` and `TCP/client/client.js` to extract them),
-- Add a short sequence diagram image or ASCII art, or
-- Add a short troubleshooting checklist based on the code's current port configuration.
+## Network commands (Ubuntu)
+- Added a companion reference file: `NETWORK_COMMANDS_UBUNTU.md` which explains common network diagnostic commands on Ubuntu (PING, PATHPING alternatives, IPCONFIG equivalents, ARP, NETSTAT, NBTSTAT alternatives, NSLOOKUP, ROUTE, TRACERT/TRACEROUTE, NMAP) with examples and install notes.
 
-Tell me which of these you'd like next.
+---
